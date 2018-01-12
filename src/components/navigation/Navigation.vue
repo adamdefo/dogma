@@ -1,11 +1,11 @@
 <template>
   <header class="header">
-    <div class="header__logo">
+    <!-- <div class="header__logo">
       <a href="#/">
         <span class="logo">DOGMA</span>
-        <!-- <span class="slogan">Ресницы & Брови</span> -->
+        <span class="slogan">Ресницы & Брови</span>
       </a>
-    </div>
+    </div> -->
     <div class="header__nav">
       <nav class="nav">
         <ul>

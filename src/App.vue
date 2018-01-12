@@ -11,7 +11,7 @@
     <div class="layout">
       <navigation></navigation>
       <main class="main">
-        <router-view/>
+        <router-view></router-view>
       </main>
       <footer class="footer">
         <div class="container"></div>
@@ -65,6 +65,19 @@ ul, ol {
 	padding: 0;
 }
 
+a {
+	border-bottom: 1px solid rgba(20, 55, 90, .3); 
+	color: rgb(20, 55, 90);
+	cursor: pointer;
+	outline: none;
+	text-decoration: none;
+}
+
+a:hover {
+	border-color: rgba(237, 22, 69, .3); 
+	color: rgb(237, 22, 69);
+}
+
 .clr:before, .clr:after {
 	content: '';
 	clear: both;
@@ -88,16 +101,6 @@ ul, ol {
 	-moz-transition: height .3s cubic-bezier(.23,1,.32,1);
 	-o-transition: height .3s cubic-bezier(.23,1,.32,1);
 	transition: height .3s cubic-bezier(.23,1,.32,1); */
-}
-
-.note a {
-	border-bottom: 1px solid rgba(255,255,255,0.3);
-	color: #ffffff;
-	text-decoration: none;
-}
-
-.note a:hover {
-	color: #cc0000;
 }
 
 .note--show {
